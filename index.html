@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework DOM</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/scripts.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/de8a137d63.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="banner">
+      <div class="banner-info">
+        <i class="fas fa-check-circle"></i>
+        <p class="banner-message"></p>
+      </div>
+      <span class="banner-close" onclick="closeBanner()">x</span>
+    </header>
+    <form
+      action=""
+      method="GET"
+      class="contact-form"
+      name="contactform"
+      data-contact-form
+    >
+      <div class="grid-column grid-column-left">
+        <div class="input-holder">
+          <input
+            type="text"
+            class="name valid"
+            name="firstname"
+            placeholder="First name"
+            data-checked-element="firstName"
+          />
+          <input
+            type="text"
+            class="name valid"
+            name="lastname"
+            placeholder="Last name"
+            data-checked-element="lastName"
+          />
+          <p class="gender">Gender</p>
+          <div class="radio">
+            <label
+              ><input
+                type="radio"
+                name="gender"
+                value="M"
+                id="gender"
+                data-checked-element="gender"
+              />M</label
+            >
+          </div>
+          <div class="radio">
+            <label
+              ><input
+                type="radio"
+                name="gender"
+                value="F"
+                id="gender"
+                data-checked-element="gender"
+              />F</label
+            >
+          </div>
+          <textarea
+            type="text"
+            class="valid"
+            name="message"
+            placeholder="Your message here..."
+            data-checked-element="message"
+          ></textarea>
+        </div>
+        <div class="btn-holder">
+          <button
+            type="submit"
+            class="btn btn-primary"
+            name="submit"
+            id="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <div class="grid-column">
+        <figure class="fig-1 image-galery">
+          <a
+            href="https://i.picsum.photos/id/116/400/300.jpg?hmac=C46vgpj3R407e8pCyy8NhIsNaBZCjb4r5d71keNgMJY"
+            class="img-1"
+            ><i class="icon ion-md-expand"></i>
+          </a>
+        </figure>
+      </div>
+    </form>
+  </body>
+</html>

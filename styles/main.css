@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: auto;
+  display: block;
+}
+
+.banner {
+  width: 60vw;
+  height: 4vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b8eebb;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.banner-info {
+  margin-left: 8px;
+  color: rgba(15, 126, 15, 1);
+  display: inline-flex;
+  opacity: 1;
+}
+
+.banner-message {
+  margin: 0;
+  margin-left: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-close {
+  margin-right: 8px;
+  color: rgba(15, 126, 15, 1);
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  opacity: 1;
+  position: relative;
+  float: right;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  background-color: #e7e7e7;
+  width: 60vw;
+  height: 70vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  float: center;
+  border: 2px solid;
+  border-color: black;
+}
+
+.contact-form {
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  border-color: black;
+}
+
+.grid-column {
+  background-color: #e7e7e7;
+  margin: 5%;
+  justify-content: center;
+}
+
+.grid-column-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.input-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.valid {
+  border: 1px solid black;
+}
+
+.gender {
+  margin: 0;
+}
+
+.radio {
+  display: flex;
+  margin-left: 70px;
+}
+
+textarea {
+  display: flex;
+  overflow-y: scroll;
+  height: 150px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-holder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  display: flex;
+  float: right;
+}
+
+.btn-primary {
+  background-color: #009999;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 10%;
+}
+
+.fig-1 {
+  grid-area: fig-1;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.image-galery a {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.image-galery a i {
+  font-size: 1em;
+  z-index: 100;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-1 {
+  background-image: url(https://i.picsum.photos/id/116/3504/2336.jpg?hmac=C46vgpj3R407e8pCyy8NhIsNaBZCjb4r5d71keNgMJY);
+}
